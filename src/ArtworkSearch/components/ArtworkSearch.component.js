@@ -1,9 +1,12 @@
+import { InputAdornment, TextField } from '@material-ui/core';
+import SearchIcon from '@material-ui/icons/Search';
 import React from 'react';
-import { TextField } from '@material-ui/core'
 
-const ArtworkSearch = () => {
+const ArtworkSearch = (props) => {
     return (
-        <h1>text</h1>
+        <TextField variant={'outlined'} InputProps={{
+            endAdornment: <InputAdornment position="end"><SearchIcon /></InputAdornment>,
+        }} {...props} />
     );
 };
 
