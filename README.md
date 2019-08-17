@@ -1,6 +1,4 @@
-Tigerspike Technical Challenge
 # Image Gallery
-
 ## User Story
 As a user I want to view a set of images so that I can find the one I want.
 
@@ -8,6 +6,16 @@ As a user I want to view a set of images so that I can find the one I want.
 * I must be able to view a list of images
 * I must be able to select an image to see further details
 * I must be able to search the images by name
+
+## Solution
+I have opted to build a React application that is using the Metropolitan Museum of Arts Open Collection project as a back end.
+
+This has the advantage of allowing me to focus on the front end code base and spend more time in design and producing a quality codebase within the time constraints. 
+
+With more time and some extra requirements (e.g. tracking views, richer search, analytics) I would have fleshed out the infrastructure with a GraphQL API with Elasticsearch, authenitication and analytics all provisioned with AWS Amplify. 
+
+In real world, instead of relying on the open project at the Met (not a good choice for a production system) I would have built an import to load the public domain artworks into S3 and indexed the text attributes of the artwork data (title, artist, description etc) in Elasticsearch and used the search results from the GraphQL API to return pointers to S3 (rather than image URLs from the Met). 
+
 
 ## App Wireframe
 
