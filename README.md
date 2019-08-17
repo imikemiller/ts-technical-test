@@ -16,6 +16,8 @@ With more time and some extra requirements (e.g. tracking views, richer search, 
 
 In real world, instead of relying on the open project at the Met (not a good choice for a production system) I would have built an import to load the public domain artworks into S3 and indexed the text attributes of the artwork data (title, artist, description etc) in Elasticsearch and used the search results from the GraphQL API to return pointers to S3 (rather than image URLs from the Met). 
 
+This was my initial plan when I read the b
+
 
 ## App Wireframe
 

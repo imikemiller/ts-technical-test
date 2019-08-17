@@ -9,4 +9,5 @@ class ArtworkSearchApiService extends ApiService {
     }
 }
 
+export const artworkSearchApi = new ArtworkSearchApiService();
 export default ArtworkSearchApiService;
