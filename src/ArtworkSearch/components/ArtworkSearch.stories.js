@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/react';
 import React from 'react';
-import ArtworkSearchComponent from './ArtworkSearch.component';
+import ArtworkSearch from './ArtworkSearch.component';
 
-storiesOf('Artworks', module).add('Search', () => <ArtworkSearchComponent value={'Sunflowers'} />)
+storiesOf('Artworks', module).add('Search', () => <ArtworkSearch value={'Sunflowers'} />)
