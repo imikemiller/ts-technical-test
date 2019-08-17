@@ -12,4 +12,5 @@ class ArtworkTileApiService extends ApiService {
 }
 
 export const artworkFields = fields;
+export const artworkTileApi = new ArtworkTileApiService();
 export default ArtworkTileApiService;
