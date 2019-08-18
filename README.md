@@ -20,7 +20,7 @@ The app is hosted on AWS Elasticbeanstalk and provisioned using Amplify and is a
 
 http://ts-technical-test-20190818092836-hostingbucket-tstechtest.s3-website-eu-west-1.amazonaws.com/
 
-I have logged 10 commits (not including the initial commit) and each commit represents an average ~20 mins of work which puts me slightly over the target at 3 hours and 20 mins.
+I have logged 10 commits (not including the initial commit and last commit to amend docs) and each commit represents an average ~20 mins of work which puts me slightly over the target at 3 hours and 20 mins.
 
 ### Runing the app
 
