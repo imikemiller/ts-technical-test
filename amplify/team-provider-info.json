@@ -1,0 +1,14 @@
+{
+    "tstechtest": {
+        "awscloudformation": {
+            "AuthRoleName": "ts-technical-test-tstechtest-20190818092623-authRole",
+            "UnauthRoleArn": "arn:aws:iam::786227876456:role/ts-technical-test-tstechtest-20190818092623-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::786227876456:role/ts-technical-test-tstechtest-20190818092623-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "ts-technical-test-tstechtest-20190818092623-deployment",
+            "UnauthRoleName": "ts-technical-test-tstechtest-20190818092623-unauthRole",
+            "StackName": "ts-technical-test-tstechtest-20190818092623",
+            "StackId": "arn:aws:cloudformation:eu-west-1:786227876456:stack/ts-technical-test-tstechtest-20190818092623/7b43c4f0-c189-11e9-904f-0a8d8e29a944"
+        }
+    }
+}

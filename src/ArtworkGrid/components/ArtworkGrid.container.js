@@ -30,7 +30,7 @@ const ArtworkGridContainer = (props) => {
             <ArtworkSearch onChange={ev => setSearch(ev.target.value)} value={search} />
             <ArtworkGridComponent loading={loading}>
                 {
-                    artworkIds.slice(0, 5).map(id => {
+                    artworkIds.slice(0, 100).map(id => {
                         return <ArtworkTileContainer id={id} key={id} />
                     })
                 }

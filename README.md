@@ -16,7 +16,11 @@ With more time and some extra requirements (e.g. tracking views, richer search, 
 
 In real world, instead of relying on the open project at the Met (not a good choice for a production system) I would have built an import to load the public domain artworks into S3 and indexed the text attributes of the artwork data (title, artist, description etc) in Elasticsearch and used the search results from the GraphQL API to return pointers to S3 (rather than image URLs from the Met). 
 
-This was my initial plan when I read the b
+The app is hosted on AWS Elasticbeanstalk and provisioned using Amplify and is available here: 
+
+http://ts-technical-test-20190818092836-hostingbucket-tstechtest.s3-website-eu-west-1.amazonaws.com/
+
+I have logged 10 commits (not including the initial commit) and each commit represents an average ~20 mins of work which puts me slightly over the target at 3 hours and 20 mins.
 
 
 ## App Wireframe
