@@ -1,7 +1,7 @@
 import ApiService from "../../services/api.service";
 import { pick } from 'lodash';
 
-const fields = ['title', 'primaryImage', 'primaryImageSmall', 'objectName', 'period', 'artistDisplayName', 'artistDisplayBio'];
+const fields = ['title', 'primaryImageSmall', 'artistDisplayName', 'artistDisplayBio'];
 class ArtworkTileApiService extends ApiService {
 
     resource = 'objects'

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const ArtworkTile = (props) => {
     return (
-        <Grid item>
+        <Grid item onClick={props.onClick}>
             <Paper className={props.classes.tile} square>
                 {
                     props.loading ? <CircularProgress /> :
